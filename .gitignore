@@ -1,0 +1,18 @@
+# --- SENSITIVE DATA ---
+# This ignores your Gemini API key so it stays on your computer only
+.streamlit/
+
+# --- PYTHON JUNK ---
+# Ignores temporary files created when running Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# --- OPERATING SYSTEM JUNK ---
+# Ignores system-specific thumbnail files
+.DS_Store
+Thumbs.db
